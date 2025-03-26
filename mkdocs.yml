@@ -6,8 +6,9 @@ plugins:
 nav:
   - Home: 'index.md'
   - For the admin: 'getting-started-admin.md'
-  - For the users:
+  - Usage:
     - Getting Started: 'getting-started-user.md'
+  - Components:
     - KU Detection: '!import https://github.com/skillab-project/KU-Detection?branch=main'
     - Universities Curriculum: '!import https://github.com/skillab-project/curriculum-skills?branch=main'
 
