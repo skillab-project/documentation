@@ -1,0 +1,20 @@
+site_name: SKILLAB
+site_url: https://skillab-project.github.io/documentation/
+plugins:
+  - search:
+  - multirepo:
+nav:
+  - Home: 'index.md'
+  - For the admin: 'getting-started-admin.md'
+  - For the users:
+    - Getting Started: 'getting-started-user.md'
+    - KU Detection: '!import https://github.com/skillab-project/KU-Detection?branch=main'
+    - Universities Curriculum: '!import https://github.com/skillab-project/curriculum-skills?branch=main'
+
+theme: mkdocs
+copyright: Copyright &copy; 2025 The SKILLAB Consortium
+
+extra:
+  version: v1.0
+
+footer: ""
