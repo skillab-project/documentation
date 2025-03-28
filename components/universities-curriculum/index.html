@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        <link rel="canonical" href="https://skillab-project.github.io/documentation/components/universities-curriculum/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>General Info - SKILLAB</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/fontawesome.min.css" rel="stylesheet">
+        <link href="../../css/brands.min.css" rel="stylesheet">
+        <link href="../../css/solid.min.css" rel="stylesheet">
+        <link href="../../css/v4-font-face.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">SKILLAB</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle active" aria-current="page" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Components</a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tracker</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../tracker/" class="dropdown-item">General Info</a>
+</li>
+            
+<li>
+    <a href="../tracker/testing/" class="dropdown-item">Testing</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">KU Detection</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="../ku-detection/" class="dropdown-item">General Info</a>
+</li>
+            
+<li>
+    <a href="../ku-detection/tests/" class="dropdown-item">Testing</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Universities Curriculum</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="./" class="dropdown-item active" aria-current="page">General Info</a>
+</li>
+            
+<li>
+    <a href="testing/" class="dropdown-item">Testing</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../ku-detection/tests/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="testing/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/skillab-project/curriculum-skills/edit/main/docs/index.md" class="nav-link">
+                                        Edit</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#skillcrawl" class="nav-link">🧠 SKILLCRAWL</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#what-does-skillcrawl-actually-do" class="nav-link">🚀 What Does SkillCrawl Actually Do?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#usage" class="nav-link">🛠️ Usage</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#example-output" class="nav-link">🧪 Example Output</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#project-structure" class="nav-link">🏗️ Project Structure</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#use-cases" class="nav-link">📚 Use Cases</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#requirements" class="nav-link">🧩 Requirements</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#database-setup" class="nav-link">💾 Database Setup</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#caching" class="nav-link">🔄 Caching</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#key-method-explanations" class="nav-link">🔍 Key Method Explanations</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="skillcrawl">🧠 SKILLCRAWL</h1>
+<p><strong>SkillCrawl</strong> is a tool that helps you search into university curricula and extract important skills that students are expected to learn — all from PDF files. It uses the official <strong>ESCO</strong> skill framework and leverages the <code>esco-skill-extractor</code> to identify real-world competencies and link them back to course content.</p>
+<p>You can run it interactively in your terminal, use its web API with Swagger UI, or even connect it to a MySQL database. Whether you're doing academic research, analyzing skill trends, or building a course recommender, SkillCrawl saves you time by automating the skill detection.</p>
+<blockquote>
+<p>⚙️ <strong>Coming soon</strong>: An <strong>automated web crawler</strong> is currently under development to let you scan entire university websites for curriculum pages — no PDFs required! It’s still experimental but already crawling basic lesson data from real websites.</p>
+</blockquote>
+<hr />
+<h2 id="what-does-skillcrawl-actually-do">🚀 What Does SkillCrawl Actually Do?</h2>
+<p>SkillCrawl is like a skill-focused academic detective. Here's how it works:</p>
+<p><img align="right" src="https://easychair.org/images/cfp-logo/ucaat2025.jpg?id=17241655" alt="UCAAT" width="69"/>
+<img align="right" src="https://th.bing.com/th/id/OIP.XWHdKPsdkbsZ4HvK6B5jWwHaCH?rs=1&pid=ImgDetMain" alt="Skillab" width="200"/></p>
+<ul>
+<li>📥 Takes in PDF files of university curricula.</li>
+<li>🔍 Reads and processes the text using PDF-aware techniques.</li>
+<li>🗂️ Splits course content into <strong>semesters</strong> and <strong>individual lessons</strong>, even if the formatting is inconsistent.</li>
+<li>🧩 For each lesson, it extracts related <strong>ESCO skills</strong> (the EU’s official database of competencies and qualifications).</li>
+<li>🧠 Lets you <strong>search by skill</strong> (e.g., "data analysis") and find which courses teach it — or browse what skills each course covers.</li>
+<li>🛢️ Supports <strong>saving everything to MySQL</strong>, so you can build dashboards or analyze data later.</li>
+<li>🔁 Keeps a local <strong>cache</strong> of all processed files for instant reuse.</li>
+<li>💬 Comes with both a full <strong>FastAPI/Swagger web interface</strong> and a <strong>terminal menu</strong>.</li>
+<li>🌐 (Experimental) A <strong>crawler module</strong> is being built to auto-visit university websites and scrape curriculum content without any manual download.</li>
+</ul>
+<hr />
+<h2 id="usage">🛠️ Usage</h2>
+<h3 id="fastapi-mode-swagger-ui">➤ FastAPI Mode (Swagger UI)</h3>
+<p>Run the API with:</p>
+<pre><code class="language-bash">uvicorn main:app --reload
+</code></pre>
+<p>Then open: <a href="http://127.0.0.1:8000/docs#/">http://127.0.0.1:8000/docs#/</a></p>
+<p>Here you can:
+- Process PDFs
+- Search for skills (by name or URL) or courses -in a specific university or globally-
+- Get top N skills per university or globally
+- Fetch full lesson/skill breakdowns
+- Save data to DB with a click</p>
+<p>Ensure:
+- Your database (<code>SkillCrawl</code>) is set up using <code>skillcrawl.sql</code>.
+- XAMPP/MySQL is running.</p>
+<hr />
+<h2 id="example-output">🧪 Example Output</h2>
+<p>SkillCrawl prints matching lessons and their associated ESCO skills:</p>
+<pre><code>Semester 1:
+  Introduction to Programming
+    Skill: problem solving
+    Skill: code debugging
+</code></pre>
+<p>Or search in reverse:</p>
+<pre><code>Skill: machine learning
+
+Matched Course: AI and Ethics (Score: 84)
+</code></pre>
+<hr />
+<h2 id="project-structure">🏗️ Project Structure</h2>
+<table>
+<thead>
+<tr>
+<th>File/Folder</th>
+<th>Purpose</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>main.py</code></td>
+<td>FastAPI app</td>
+</tr>
+<tr>
+<td><code>skillcrawl.py</code></td>
+<td>Entry point with menu &amp; CLI control</td>
+</tr>
+<tr>
+<td><code>pdf_utils.py</code></td>
+<td>PDF parsing, semester/lesson splitting</td>
+</tr>
+<tr>
+<td><code>database.py</code></td>
+<td>Handles writing to MySQL</td>
+</tr>
+<tr>
+<td><code>skills.py</code></td>
+<td>Skill extraction, DB lookup, and fuzzy matching</td>
+</tr>
+<tr>
+<td><code>output.py</code></td>
+<td>Visual output helpers (ASCII, color, lines)</td>
+</tr>
+<tr>
+<td><code>config.py</code></td>
+<td>DB and cache config</td>
+</tr>
+<tr>
+<td><code>helpers.py</code></td>
+<td>Utility functions (caching, validation, detection)</td>
+</tr>
+<tr>
+<td><code>menu.py</code></td>
+<td>Terminal ASCII Interface</td>
+</tr>
+<tr>
+<td><code>skillcrawl.sql</code></td>
+<td>SQL schema to set up the database</td>
+</tr>
+<tr>
+<td><code>requirements.txt</code></td>
+<td>List of required Python libraries</td>
+</tr>
+<tr>
+<td><code>cache/</code></td>
+<td>Stores processed data by university</td>
+</tr>
+<tr>
+<td><code>tests/</code></td>
+<td>Stores the available test cases you can run</td>
+</tr>
+<tr>
+<td><code>README.md</code></td>
+<td>You're reading it!</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="use-cases">📚 Use Cases</h2>
+<ul>
+<li>Curriculum Analysis &amp; Benchmarking</li>
+<li>Educational Skill Mapping</li>
+<li>Automated Course Tagging</li>
+<li>Career Pathway Recommendations</li>
+<li>Academic Skill Graph Construction</li>
+</ul>
+<hr />
+<h2 id="requirements">🧩 Requirements</h2>
+<p>Install all dependencies:</p>
+<pre><code class="language-bash">pip install -r requirements.txt
+</code></pre>
+<p>Recommended: <strong>Python 3.10</strong><br />
+Avoid Python 3.11+ due to compatibility with <code>esco-skill-extractor</code>.</p>
+<hr />
+<h2 id="database-setup">💾 Database Setup</h2>
+<p>Initialize the database using:</p>
+<pre><code class="language-bash">mysql -u root -p &lt; skillcrawl.sql
+</code></pre>
+<p>Make sure to configure the connection details in <code>skillcrawl.py</code> and <code>skills.py</code> under <code>db_config</code>.</p>
+<hr />
+<h2 id="caching">🔄 Caching</h2>
+<p>Processed results are cached per university PDF in:
+- <code>cache/pdf_cache.json</code>
+- <code>university_cache.json</code></p>
+<p><em>Where university is replaced by a respective university name that the cache represents.</em></p>
+<p>You can delete these files to force re-processing.</p>
+<hr />
+<h2 id="key-method-explanations">🔍 Key Method Explanations</h2>
+<p>Here are the most important methods across the codebase explained for better understanding and easier contribution:</p>
+<h3 id="mainpy-fastapi"><code>main.py</code> (FastAPI)</h3>
+<ul>
+<li><strong><code>/process_pdf</code></strong>: Endpoint to process a PDF, extract text, split lessons, run skill extraction, and cache results.</li>
+<li><strong><code>/search_skill</code></strong>: Search database for lessons teaching a given skill.</li>
+<li><strong><code>/calculate_skillnames</code></strong>: Enriches lessons with missing skill names via Skillab Tracker API.</li>
+<li><strong><code>/get_top_skills</code> &amp; <code>/get_top_skills_all</code></strong>: Return most frequently taught skills globally or per university.</li>
+<li><strong><code>/filter_skillnames</code></strong>: Lookup skill names for a specific university and lesson using either DB or cache.</li>
+</ul>
+<h3 id="skillcrawlpy"><code>skillcrawl.py</code></h3>
+<ul>
+<li><strong><code>main(...)</code></strong>: The main method that runs the terminal interface. Handles PDF processing, caching, and triggering the desired output based on command-line args.</li>
+<li><strong><code>get_university_country(university_name)</code></strong>: Uses an external API to detect a university's country from its name. Updates local cache.</li>
+</ul>
+<h3 id="pdf_utilspy"><code>pdf_utils.py</code></h3>
+<ul>
+<li><strong><code>extract_text_from_pdf(pdf_file_path)</code></strong>: Uses <code>PyMuPDF</code> to extract text from each page of the PDF. Also caches results.</li>
+<li><strong><code>extract_text_after_marker(text, markers)</code></strong>: Takes all text and returns everything after specific marker words like "Course Content".</li>
+<li><strong><code>split_by_semester(text)</code></strong>: Breaks the PDF text into sections by semester or year using regex.</li>
+<li><strong><code>process_pages_by_lesson(pages)</code></strong>: Processes PDF page-by-page to detect lessons and their descriptions using uppercase pattern recognition.</li>
+</ul>
+<h3 id="skillspy"><code>skills.py</code></h3>
+<ul>
+<li><strong><code>get_skills_for_lesson(...)</code></strong>: Looks up all skills associated with a given lesson or university. Optionally searches by lesson name.</li>
+<li><strong><code>extract_and_get_title(skill_url)</code></strong>: Fetches the readable name of a skill from its ESCO URL using their API.</li>
+<li><strong><code>search_courses_by_skill_database(...)</code></strong>: Searches all courses for a fuzzy match of the given skill name in the database.</li>
+</ul>
+<h3 id="databasepy"><code>database.py</code></h3>
+<ul>
+<li><strong><code>write_to_database(...)</code></strong>: Saves extracted data to MySQL: university, semesters, lessons, and skills. Also merges new skills with what's already in the cache.</li>
+</ul>
+<h3 id="helperspy"><code>helpers.py</code></h3>
+<ul>
+<li><strong><code>find_possible_university(pdf_file_path)</code></strong>: Scans PDF content using regex to guess the university name.</li>
+<li><strong><code>load_from_cache(university_name)</code> / <code>save_to_cache(...)</code></strong>: Manages university-specific cache JSONs.</li>
+<li><strong><code>contains_greek_characters(...)</code> / <code>contains_no_lowercase_letters(...)</code></strong>: Utilities used in filtering invalid lesson names.</li>
+<li><strong><code>extract_description(text)</code></strong>: Strips out and formats a clean description from lesson blocks.</li>
+</ul></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2025 The SKILLAB Consortium</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="../../js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

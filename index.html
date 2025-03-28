@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="None">
+        
+        <link rel="canonical" href="https://skillab-project.github.io/documentation/">
+        <link rel="shortcut icon" href="img/favicon.ico">
+        <title>SKILLAB</title>
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome.min.css" rel="stylesheet">
+        <link href="css/brands.min.css" rel="stylesheet">
+        <link href="css/solid.min.css" rel="stylesheet">
+        <link href="css/v4-font-face.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link id="hljs-light" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" >
+        <link id="hljs-dark" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css" disabled>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
+    </head>
+
+    <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">SKILLAB</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="nav-item">
+                                <a href="." class="nav-link active" aria-current="page">Home</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"  aria-expanded="false">Components</a>
+                                <ul class="dropdown-menu">
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Tracker</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="components/tracker/" class="dropdown-item">General Info</a>
+</li>
+            
+<li>
+    <a href="components/tracker/testing/" class="dropdown-item">Testing</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">KU Detection</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="components/ku-detection/" class="dropdown-item">General Info</a>
+</li>
+            
+<li>
+    <a href="components/ku-detection/tests/" class="dropdown-item">Testing</a>
+</li>
+    </ul>
+  </li>
+                                    
+  <li class="dropdown-submenu">
+    <a href="#" class="dropdown-item">Universities Curriculum</a>
+    <ul class="dropdown-menu">
+            
+<li>
+    <a href="components/universities-curriculum/" class="dropdown-item">General Info</a>
+</li>
+            
+<li>
+    <a href="components/universities-curriculum/testing/" class="dropdown-item">Testing</a>
+</li>
+    </ul>
+  </li>
+                                </ul>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav ms-md-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="components/tracker/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-body-tertiary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-bs-level="1"><a href="#welcome-to-skillab" class="nav-link">Welcome to SKILLAB</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-bs-level="2"><a href="#about-the-project" class="nav-link">About the project</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-bs-level="2"><a href="#consortium" class="nav-link">Consortium</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<h1 id="welcome-to-skillab">Welcome to SKILLAB</h1>
+<p><img alt="logo.png" src="media/logo.png" /></p>
+<p>SKILLAB aims at delivering an open-source skill demand/supply identification, analysis and prediction hub for citizens, enterprises, academia, and policy makers.</p>
+<p>For more general information about the SKILLAB project visit <a href="https://skillab-project.eu/">our website</a>.</p>
+<h2 id="about-the-project">About the project</h2>
+<p>The SKILLAB project aims at developing a holistic skills management and shortage identification platform that will monitor the demand of European organizations and entities for specific skillsets, the supply of skills by job-seekers and potential employees along with European policies on the subject and will propose targeted strategies, curiculla development, policies and job advancement suggestions.</p>
+<p>Highlighting the importance of workforce upskilling and vocational training by generating policies for hiring bodies, offering suggestions for improvement on existing European initiatives and providing a reliable skills forecasting and monitoring observatory.</p>
+<p>At the core of the proposed framework lies the leveraging of Artificial Intelligence technologies that will harness high-volumes of labour market, organizational and European taxonomies and initiatives data and will reduce the labour gaps and shortages on a regional, sectoral and temporal level.</p>
+<p>SKILLAB is the joint effort of 10 partners from 6 European countries. Contributing to the enhancement of the European Labour market and the Pact for Skills by delivering a hub targeted towards educational paths for upskilling and reskilling, HR strategies and guidelines for optimal candidate recruitment, recommendations for policymakers on skills shortages and mismatches and the identification of emerging skills and roles.</p>
+<h3 id="key-objectives">Key Objectives</h3>
+<ul>
+<li>
+<p>Development and deployment of a holistic skills management and shortage identification platform to policymakers to automatically monitor the demand for skills in their market domain and the supply of skills, identifying skill gaps &amp; emerging jobs.</p>
+</li>
+<li>
+<p>Integration of Advanced Machine Learning and Natural Language Processing methods into the analysis of competences.</p>
+</li>
+<li>
+<p>Generation of systematic recommendations for hiring policies, personalized educational plans for individuals aiming at upskilling and reskilling, detailed reports for Curricula Improvement targeting Higher Education Institutions (HEI) and Education Policymakers.</p>
+</li>
+<li>
+<p>Specification and automatic update of hard- and soft-skill taxonomies and derivation of vocational training priorities targeting Government, Policymakers and Public Bodies.</p>
+</li>
+</ul>
+<h2 id="consortium">Consortium</h2>
+<p>The Consortium consists of the following partners:</p>
+<ol>
+<li>Aristotle University of Thessaloniki</li>
+<li>Centre for Research &amp; Technology Hellas</li>
+<li>Eclipse Foundation</li>
+<li>ViLabs Versatile Innovations</li>
+<li>Humboldt-Universitaet zu Berlin</li>
+<li>Telefonica</li>
+<li>Cluj IT</li>
+<li>Intrasoft International</li>
+<li>Democritus University of Thrace</li>
+<li>University of Macedonia</li>
+</ol></div>
+            </div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+                <p>Copyright &copy; 2025 The SKILLAB Consortium</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <p>From here you can search these documents. Enter your search terms below.</p>
+                <form>
+                    <div class="form-group">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
+
+<!--
+MkDocs version : 1.6.1
+Build Date UTC : 2025-03-28 15:12:07.087422+00:00
+-->
